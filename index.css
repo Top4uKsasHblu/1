@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+h2 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+p {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+@media (min-width: 1280px) {
+    h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 100%;
+        margin-bottom: 60px;
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 100%;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+    .content {
+        width: 1280px;
+    }
+
+    .group-text {
+        margin-bottom: 50px;
+        width: 550px;
+    }
+
+    .group-text h2 {
+        margin-bottom: 15px;
+        color: rgba(48, 48, 48, 1);
+    }
+
+    .uslugi {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .uslugi p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        color: rgba(48, 48, 48, 1);
+    }
+
+    .uslugi img {
+        height: 550px;
+        width: 650px;
+    }
+
+    .trenerskiu-sostav {
+        margin-top: 360px;
+    }
+
+    .sostav-card-conteiner {
+        display: flex;
+        width: 240px;
+    }
+
+    .sostav-card {
+        width: 200px;
+    }
+
+    .sostav-card img {
+        width: 160px;
+    }
+
+    .trenerskiu-sostav h2 {
+        font-size: 36px;
+        margin-bottom: 75px;
+        color: rgba(51, 51, 51, 1);
+        line-height: 140%;
+        font-family: 'Gilroy';
+        font-weight: 700;
+    }
+
+    .trenerskiu-sostav h4 {
+        font-size: 21px;
+        color: rgba(51, 51, 51, 1);
+        line-height: 140%;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-family: 'Gilroy';
+        font-weight: 600;
+    }
+
+    .trenerskiu-sostav p {
+        font-size: 14px;
+        color: rgba(51, 51, 51, 1);
+        line-height: 140%;
+        text-align: center;
+        font-family: 'Gilroy';
+        font-weight: 400;
+    }
+
+    .trenerskiu-sostav button {
+        width: 45px;
+        height: 45px;
+        background-color: rgba(141, 134, 201, 1);
+        border: none;
+        outline: none;
+    }
+
+    .novosti-card {
+        width: 416px;
+        height: 512px;
+        margin-bottom: 24px;
+    }
+
+    .novosti-card img {
+        margin-bottom: 25px;
+    }
+
+    .novosti-card p {
+        margin-bottom: 15px;
+    }
+
+    .novosti-card span {
+        width: 336px;;
+    }
+
+    .novosti-card h4 {
+        margin-bottom: 20px;
+    }
+
+    .novosti-card a {
+        width: 137px;
+        height: 45px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 1279.9px) {
+    h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 100%;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 100%;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+    .content {
+        width: 350px;
+
+    }
+
+    .group-text {
+        margin-bottom: 25px;
+        width: 350px;
+    }
+
+    .group-text h2 {
+        margin-bottom: 7.5px;
+    }
+
+    .uslugi {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .uslugi img {
+        height: 350px;
+        width: 350px;
+        margin-left: 0px;
+    }
+
+    .trenerskiu-sostav {
+        margin-top: 260px;
+    }
+
+    .sostav-card-conteiner {
+        display: flex;
+        width: 240px;
+    }
+
+    .sostav-card {
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .sostav-card img {
+        width: 160px;
+    }
+
+
+    .trenerskiu-sostav h2 {
+        font-size: 26px;
+        margin-bottom: 75px;
+        color: rgba(51, 51, 51, 1);
+        line-height: 140%;
+        d font-family: 'Gilroy';
+        font-weight: 700;
+    }
+
+    .trenerskiu-sostav h4 {
+        font-size: 21px;
+        color: rgba(51, 51, 51, 1);
+        line-height: 140%;
+        text-align: center;
+        margin-top: 12.5px;
+        margin-bottom: 7.5px;
+        font-family: 'Gilroy';
+        font-weight: 600;
+    }
+
+    .trenerskiu-sostav p {
+        font-size: 14px;
+        color: rgba(51, 51, 51, 1);
+        line-height: 140%;
+        text-align: center;
+        font-family: 'Gilroy';
+        font-weight: 400;
+    }
+
+    .trenerskiu-sostav button {
+        width: 45px;
+        height: 45px;
+        background-color: rgba(141, 134, 201, 1);
+        border: none;
+        outline: none;
+        transform: translateX(-5px);
+    }
+
+    .novosti-card {
+        width: 350px;
+        height: 512px;
+        margin-bottom: 24px;
+    }
+
+    .novosti-card img {
+        margin-bottom: 25px;
+    }
+
+    .novosti-card p {
+        margin-bottom: 15px;
+    }
+
+    .novosti-card span {
+        width: 336px;;
+    }
+
+    .novosti-card h4 {
+        margin-bottom: 20px;
+    }
+
+    .novosti-card a {
+        width: 137px;
+        height: 45px;
+    }
+}
+
+.conteiner-content {
+    display: flex;
+    width: 100%;
+    height: 1500vh;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.sostav-conteiner {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.scroll-btn {
+    cursor: pointer;
+}
+
+.novosti {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 374px;
+    justify-content: space-between;
+}
+
+.novosti-card {
+    display: flex;
+    border: 1px solid rgba(247, 236, 225, 1);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.novosti-card p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.novosti-card h4 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 21px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.novosti-card a {
+    display: flex;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(141, 134, 201, 1);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
